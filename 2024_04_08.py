@@ -14,3 +14,21 @@ def sum_array(arr):
         return 0
 
 print(sum_array([6,2,1,8,10]))
+
+# challenge 3: make two functions that take a list of integers and return the largest and smallest elements:
+
+def minimum(arr):
+    return min(arr)
+
+def maximum(arr):
+    return max(arr)
+
+# challenge 4:
+
+def grow(arr):
+    product = 1
+    for num in arr:
+        product *= num
+    return product
+
+print(grow([1, 2, 3]))
